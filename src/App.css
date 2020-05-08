@@ -1,38 +1,30 @@
-.App {
+.ProductName {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.meyve-div:nth-child(1n+1) {
+  margin-left: 55px;
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ToplamaKısmı {
+  margin-left:33px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.butondiv {
+  text-align: center;
+  margin-top: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.submitBtn:hover  {
+  filter: grayscale(0%) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  filter: grayscale(0%) !important;
+}
+
+.cardImage {
+  
 }

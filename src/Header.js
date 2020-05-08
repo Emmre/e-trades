@@ -18,7 +18,7 @@ class Header extends Component {
               <tbody>
                 <tr>
                   <td>No. of items</td>
-                  <td>:</td> 
+                  <td>:</td>  
                   <td>
                     <strong></strong>
                   </td>
